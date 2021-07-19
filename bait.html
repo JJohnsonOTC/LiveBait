@@ -10,20 +10,27 @@
     <title>Bait - Howard's Lakeside General Store</title>
   </head>
   <body>
-    <div class="navbar">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="#">Products</a>
-          <ul>
-            <li><a href="bait.html">Bait</a></li>
-            <li><a href="tackle.html">Tackle</a></li>
-            <li><a href="boating.html">Boating Supplies</a></li>
-            <li><a href="misc.html">More!</a></li>
-          </ul></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </div>
+    <div class="wrapper">
+      <div class="header-container">
+        <div class="logo">
+          <a href="index.html"><img src="images/lakesidelogo.png"
+            alt="Howard's Lakeside General Store"></a>
+        </div>
+
+      <div class="navbar">
+          <a href="index.html">Home</a>
+            <div class="prod-sub">
+              <button class="dropbtn">Products<i class="fa fa-caret-down"></i></button>
+              <div class="prod-sub-content">
+              <a href="tackle.html">Tackle</a>
+              <a href="boating.html">Boating Supplies</a>
+              <a href="misc.html">More!</a></div>
+            </div>
+          <a href="services.html">Services</a>
+          <a href="contact.html">Contact</a>
+        </div></div>
+
+      </div>
 
   </body>
 </html>
